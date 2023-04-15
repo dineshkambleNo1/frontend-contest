@@ -1,0 +1,94 @@
+@font-face {
+  font-family: inter;
+  src: url(./font/inter.ttf);
+}
+
+body {
+   font-family: inter;
+}
+
+.container1 {
+    padding: 2rem;
+    padding-bottom: 3.4rem;
+}
+
+.container2 {
+    padding: 2rem;
+    padding-top: 0rem;
+}
+
+.container2 strong {
+    font-size: 2.2rem;
+    
+}
+
+.container2 img {
+    margin-top: 1.5rem;
+}
+
+
+.container2 .moreimages {
+    font-size: 1.1rem;
+    padding-top: 1.3rem;
+}
+
+.container3 {
+    padding: 2rem;
+}
+
+.container3 ol {
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin-left: 0.5rem;
+}
+
+.container3 ol li {
+    padding: 0.4rem;
+}
+
+
+.container1 hr {
+  align-content: start;
+  height: 0.1rem;
+  background-color: black;
+  size: 30px;
+}
+
+.container1 p {
+    width: 55%;
+    
+}
+
+
+.container3 strong {
+   font-size: 1.8rem;
+}
+
+
+.underline {
+	position: relative;
+    font-size: 2rem;
+}
+
+.container1 .underline {
+    font-size: 2.5rem;
+}
+
+.container1 .context {
+    
+    display: block;
+    font-size: 1.3rem;
+    padding-top:1rem;
+}
+
+ 
+.underline::before {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	width: 100%;
+	height: 2px;
+	background-color: black;
+	border-radius: 8px;
+}
+
